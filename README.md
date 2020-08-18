@@ -1,6 +1,6 @@
 # Traccar Docker for RaspberryPi
 
-I will bring you here the latest version of Traccar for Docker and RaspberryPi, with Telegram Notifications for different users.
+I will bring you here the latest version of Traccar for Docker and RaspberryPi, with Telegram Notifications for different users (Thanks to Rene Martinez).
 
 Instructions:
 
