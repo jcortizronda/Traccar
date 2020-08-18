@@ -24,7 +24,7 @@ Instructions:
     -v /home/jotace/Docker/Traccar/traccar.xml:/opt/traccar/conf/traccar.xml:ro \
     -v /home/jotace/Docker/Traccar/templates:/opt/traccar/templates:rw \
     traccar/traccar:4.10
-  ```
+    ```
   
 NOTE:
  - Change the network flag as you want
