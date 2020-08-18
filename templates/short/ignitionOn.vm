@@ -1,0 +1,4 @@
+Vehiculo: $device.name
+Estado: CONTACTO ENCENDIDO
+Fecha: $dateTool.format("HH:mm:ss dd-MM-YYYY", $event.serverTime, $locale, $timezone)
+Enlace: https://www.google.com.tr/maps/place/$position.latitude..+$position.longitude

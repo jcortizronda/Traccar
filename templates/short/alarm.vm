@@ -1,0 +1,5 @@
+Vehiculo: $device.name
+Alarma: $position.getString("alarm")
+Fecha: $dateTool.format("dd-MM-YYY HH:mm:ss", $event.serverTime, $locale, $timezone)
+Situacion: $position.address
+Enlace: https://www.google.com.tr/maps/place/$position.latitude..+$position.longitude

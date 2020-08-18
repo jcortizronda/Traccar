@@ -1,0 +1,1 @@
+Vehiculo $device.name conectado a las $dateTool.format("HH:mm:ss dd-MM-YYY", $event.serverTime, $locale, $timezone)

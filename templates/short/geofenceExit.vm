@@ -1,0 +1,4 @@
+Vehiculo $device.name ha salido de la geocerca $geofence.name at $dateTool.format("HH:mm:ss dd-MM-YYYY", $event.serverTime, $locale, $timezone)
+Enlace: $webUrl?eventId=$event.id
+Situacion: $position.address
+Latitude/Longitude: $position.latitude -  $position.longitude
