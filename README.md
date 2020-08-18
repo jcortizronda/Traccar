@@ -1,6 +1,6 @@
 # Traccar Docker for RaspberryPi
 
-I will bring you here the latest version of Traccar for Docker and RaspberryPi
+I will bring you here the latest version of Traccar for Docker and RaspberryPi, with Telegram Notifications for different users.
 
 Instructions:
 
@@ -29,4 +29,7 @@ Instructions:
 NOTE:
  - Change the network flag as you want
  - Change -v directories as you want
-I like to create volume for templates folder, so I can modify them easily for notifications
+I like to create volume for templates folder, so I can modify them easily for notifications. Here I leave templates folder. Inside it, Short notifications are for Telegram and Messages, and Full notifications are for Email
+
+- Before using telegram notifications, you have to configure it at traccar.xml with an operational Telegram Bot. Later, you can use notifications for each users.
+  Add to each user its telephone number, with international format(+XX). Then each user has to start bot in order to receive notifications.
