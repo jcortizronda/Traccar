@@ -8,7 +8,7 @@ Instructions:
 2) CD to the path that contents Dockerfile
 3) Create image from this Dockerfile using this command:
     ```ruby
-    sudo docker build --tag traccar/traccar:4.10 ./
+    sudo docker build --tag traccar/traccar:4.12 ./
     ```
 4) Now, you can create container using this:
 
@@ -23,11 +23,11 @@ Instructions:
     -v /home/jotace/Docker/Traccar/logs:/opt/traccar/logs:rw \
     -v /home/jotace/Docker/Traccar/traccar.xml:/opt/traccar/conf/traccar.xml:ro \
     -v /home/jotace/Docker/Traccar/templates:/opt/traccar/templates:rw \
-    traccar/traccar:4.10
+    traccar/traccar:4.12
     ```
   
 NOTE:
- - Change the network flag as you want
+ - Change network flag as you want
  - Change -v directories as you want
 I like to create volume for templates folder, so I can modify them easily for notifications. Here I leave templates folder. Inside it, Short notifications are for Telegram and Messages, and Full notifications are for Email
 
