@@ -1,6 +1,6 @@
 FROM arm32v7/openjdk:8u201-jdk-alpine
 
-ENV TRACCAR_VERSION 4.10
+ENV TRACCAR_VERSION 4.12
 
 WORKDIR /opt/traccar
 
